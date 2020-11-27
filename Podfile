@@ -15,3 +15,4 @@ target 'Instagram' do
   pod 'SVProgressHUD','2.2.5'
   pod 'CLImageEditor/AllTools','0.2.4'
 end
+  pod 'FirebaseUI/Storage'

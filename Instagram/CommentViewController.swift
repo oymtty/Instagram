@@ -29,6 +29,7 @@ class CommentViewController: UIViewController {
         let tapGesture: UITapGestureRecognizer = UITapGestureRecognizer(target:self, action:#selector(dismissKeyboard))
         self.view.addGestureRecognizer(tapGesture)
     }
+    
     @objc func dismissKeyboard(){
         view.endEditing(true)// キーボードを閉じる
     }
