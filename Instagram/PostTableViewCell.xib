@@ -38,7 +38,10 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cEI-AD-aK6">
-                        <rect key="frame" x="26" y="369" width="268" height="31"/>
+                        <rect key="frame" x="26" y="369" width="268" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="UeO-qr-eyT"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -60,10 +63,7 @@
                         <state key="normal" title="コメント"/>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i6E-Y1-75R">
-                        <rect key="frame" x="26" y="410" width="268" height="20"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="20" id="jIR-L3-ChL"/>
-                        </constraints>
+                        <rect key="frame" x="26" y="399" width="268" height="31"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
